@@ -1,0 +1,29 @@
+.skill-list {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+  width: 500px;
+  justify-content: center;
+}
+
+.skill {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-size: 22px;
+  background-color: #f0ecec;
+  font-color: black;
+  flex: 0 0 40%;
+}
+
+.description-project {
+  font-size: 22px;
+  text-align: left;
+}
