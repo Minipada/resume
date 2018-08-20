@@ -14,7 +14,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = "david.bensoussan.job@gmail.com";
 $subject = "Portfolio contact Form:  $name";
 $body = "<b>Name</b>: $name<br /><b>Email</b>: $email<br /><b>Phone</b>: $phone<br /><br /><b>Message</b>:<br />$message";
-$header = "From: postmaster@bensoussan.xyz\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$header = "From: david@bensoussan.xyz\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $header .= "Reply-To: $email\n";
 $header .= "Content-Type: text/html\r\n";
 
