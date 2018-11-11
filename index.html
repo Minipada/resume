@@ -91,6 +91,16 @@
               <img class="img-fluid" src="img/portfolio/synapticon.png" alt="">
             </a>
           </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/growratio.png" alt="">
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -218,19 +228,23 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">"Dockerization" and Migration</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Dockerizing, automating software stack deployment and CI/CD</h2>
               <hr class="star-dark mb-5">
-              <p class="description-project mb-5">Moving all applications from Feelix GmbH (berlin based startups) to containers: Jenkins, Gitlab, SugarCRM, backend and frontend and migrating them to new servers. At the same time, I am initiating a new CI/CD pipeline and educating engineers for more robust development practices using Docker.</p>
+              <p class="description-project mb-5">Devops manager, putting the 4 main company software (frontend and backend) in containers,
+                initiating the whole CI/CD pipeline automation and automating their deployment to deliver to more clients in a reliable way
+                by closing working with the development team.<br />
+                <b><a href="https://www.myfeelix.de">https://www.myfeelix.de</a></b><br />
+                <b>Long term contract</b></p>
               <ul class="skill-list">
                 <li class="skill">Docker</li>
-                <li class="skill">Jenkins</li>
                 <li class="skill">Gitlab</li>
                 <li class="skill">Nginx</li>
-                <li class="skill">Apache2</li>
-                <li class="skill">Composer</li>
+                <li class="skill">Apache</li>
+                <li class="skill">Jenkins</li>
                 <li class="skill">CI/CD</li>
-                <li class="skill">SugarCRM</li>
+                <li class="skill">Traefik</li>
                 <li class="skill">MySql</li>
+                <li class="skill">Finance sector</li>
               </ul>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -250,30 +264,62 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">CI/CD from scratch</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Initiating CI/CD and craft Embedded Linux</h2>
               <hr class="star-dark mb-5">
-                <ul class="description-project">
-                  <li>Design of Jenkins Master/Slave architecture running on different architectures for LONA and one autonomous robot project</li>
-                  <li>They run with docker stacks (also in the CI/CD process)</li>
-                  <li>Autoscaling on different providers (AWS/Scaleway)</li>
-                  <li>Automated optimization process using Packer/Terraform to create standard images running containers interacting with AWS S3 and Google Big query</li>
-                  <li>Set up apt/opkg servers</li>
-                </ul>
-                <ul class="skill-list">
-                  <li class="skill">Docker</li>
-                  <li class="skill">Jenkins</li>
-                  <li class="skill">Github</li>
-                  <li class="skill">AWS</li>
-                  <li class="skill">Apache2</li>
-                  <li class="skill">Scaleway</li>
-                  <li class="skill">ARM64</li>
-                  <li class="skill">Terraform</li>
-                  <li class="skill">Packer</li>
-                  <li class="skill">Yocto</li>
-                  <li class="skill">Autoscaling</li>
-                  <li class="skill">ROS</li>
-                  <li class="skill">CMake</li>
-                </ul>
+              <ul class="description-project">
+                <li>Design of Jenkins Master/Slave architecture running on different architectures for multiple robotics/hardware projects</li>
+                <li>They run with docker stacks (also in the CI/CD process)</li>
+                <li>Autoscaling on different providers (AWS/Scaleway)</li>
+                <li>Automated optimization process using Packer/Terraform to create standard images running containers interacting with AWS S3 and Google Big query</li>
+                <li>Set up apt/opkg servers</li>
+                <li>Embedded Linux design for robots, IoT and Virtual Machines projects involving docker running inside with Over The Air updates</li>
+                Long term contract
+              </ul>
+              <ul class="skill-list">
+                <li class="skill">Docker</li>
+                <li class="skill">Jenkins</li>
+                <li class="skill">Github</li>
+                <li class="skill">AWS/Scaleway</li>
+                <li class="skill">Apache</li>
+                <li class="skill">Multi-architecture environment</li>
+                <li class="skill">Terraform</li>
+                <li class="skill">Packer</li>
+                <li class="skill">Yocto</li>
+                <li class="skill">Autoscaling</li>
+                <li class="skill">ROS</li>
+                <li class="skill">Virtual machines</li>
+                <li class="skill">OTA Updates</li>
+              </ul>
+              <p class="description-project mb-5"><a href="https://www.synapticon.com"><b>https://www.synapticon.com</b></a><br />
+              <b>Long term contract</b></p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Embedded linux development (running docker) on beaglebone</h2>
+              <hr class="star-dark mb-5">
+              <p class="description-project mb-5">Designed and developed embedded Linux for IoT project running applications in docker on the beaglebone black. <br />
+                <b><a href="https://growratio.com">https://growratio.com</b></a><br />
+                <b>Short term contract</b>
+              </p>
+              <ul class="skill-list">
+                <li class="skill">Docker</li>
+                <li class="skill">Yocto</li>
+              </ul>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
