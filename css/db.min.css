@@ -27,3 +27,20 @@
   font-size: 22px;
   text-align: left;
 }
+
+.technology {
+  align-items: center;
+  height: 2em;
+  color: #27799f;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: .5rem;
+  padding-left: .75em;
+  padding-right: .75em;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #c6c6c6;
+  display: inline-flex;
+  white-space: nowrap;
+  line-height: 1.5em;
+}
