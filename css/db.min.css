@@ -44,3 +44,23 @@
   white-space: nowrap;
   line-height: 1.5em;
 }
+
+.button {
+  background-color: #27799f;
+  border: none;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.button:hover{
+  color:inherit;
+}
+
+.button_center {
+  text-align: center;
+}
