@@ -1,0 +1,47 @@
+.a4_format{
+    margin: 20mm 15mm 10mm 15mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download_button {
+    display:block;
+    width:150px;
+    height:150px;
+    line-height:150px;
+    border-radius: 50%;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    background: #47abc8;
+    font-size:20px;
+    font-weight:bold;
+    position: fixed;
+    left: 2%;
+    top:50px;
+    font-family: 'Fontin Sans Rg';
+}
+.download_button:hover {
+    border: 1px solid black;
+}
+
+.go_back_button {
+    display:block;
+    width:150px;
+    height:150px;
+    line-height:150px;
+    border-radius: 50%;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    background: #47abc8;
+    font-size:20px;
+    font-weight:bold;
+    position: fixed;
+    left: 2%;
+    bottom:50px;
+    font-family: 'Fontin Sans Rg';
+}
+.go_back_button:hover {
+    border: 1px solid black;
+}

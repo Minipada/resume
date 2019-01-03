@@ -1,0 +1,150 @@
+@font-face{
+    font-family:FontAwesome;
+    src:url(font-awesome/fontawesome-webfont.eot);
+    src:url(font-awesome/fontawesome-webfont.svg);
+    src:url(font-awesome/fontawesome-webfont.ttf);
+    src:url(font-awesome/fonts/fontawesome-webfont.woff);
+    font-weight:400;font-style:normal;
+}
+
+@font-face {
+    font-family: CODE_Bold;
+    src: url(fonts/CODE_Bold.otf);
+}
+
+p1:before {
+    content:"\f09b";
+}
+
+p2:before {
+    content:"\f08c";
+}
+
+p3:before {
+    content:"\f0ac";
+}
+
+p5:before{
+    content:"\f0e0";
+}
+
+p6:before{
+    content:"\f095";
+}
+
+p8:before {
+    content:"\f005";
+    padding-right: 3px;
+    vertical-align: top;
+    width: 15px;
+}
+
+p9:before {
+    content:"\f006";
+    padding-right: 3px;
+    vertical-align: top;
+    width: 15px;
+}
+
+p10:before {
+  content:"\f015";
+  color: black;
+  padding-right: 3px;
+  width: 15px;
+}
+
+p11:before{
+  content:"\f004";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p12:before{
+  content:"\f091";
+  color: black;
+  width: 15px;
+  padding-right: 5px;
+  font-family: 'FontAwesome';
+}
+
+p14:before {
+  content:"\f19d";
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+  color: black;
+}
+
+p15:before{
+  content:"\f0b1";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p17:before{
+  content:"\f0ad";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+
+p19:before{
+  content:"\f13b";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p20:before{
+  content: "\f085";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p21:before{
+  content: "\f120";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p22:before{
+  content: "\f0e8";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p24:before{
+  content: "\f013";
+  color: black;
+  width: 25px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p25:before{
+  content: "\f09b";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p26:before{
+  content: "\f534";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}

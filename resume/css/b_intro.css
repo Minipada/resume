@@ -1,0 +1,22 @@
+.big_title{
+    font-family: 'Oswald';
+    font-size: 25px;
+}
+
+.small_title{
+    font-family: 'Oswald';
+    font-size: 15px;
+}
+
+.font_awesome_title{
+    font-family: 'FontAwesome';
+    font-size: 19px;
+}
+
+.contact_icon{
+    font-size: 16px;
+}
+
+.contact_mail{
+    font-size: 14px;  
+}

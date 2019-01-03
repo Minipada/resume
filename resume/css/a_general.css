@@ -1,0 +1,93 @@
+html *
+{
+   font-size: 13px;
+}
+
+body {
+    height: auto;
+    background:#FFF;
+    font-size: 13px;
+}
+
+.dotted_line {
+    border-top: 2px dotted #686868;
+    width:100%;
+}
+
+.text{
+    font-family: 'Fontin Sans Rg';
+    text-align : justify;
+}
+
+.text_bold{
+    font-family: 'Fontin Sans Rg';
+    font-weight: bold;
+}
+
+.text_italic{
+    font-family: 'Fontin Sans Rg';
+    font-style: italic;
+    font-size: 11px;
+}
+
+/* */
+.blue{
+    color: #385492;
+}
+
+.blue2{
+    color: #468499;
+}
+
+.blue3{
+    color: #47abc8; 
+}
+
+.blue{
+    color: #5373b8;
+}
+
+.blue{
+    color: #3c62b4;
+}
+
+.black{
+    color: black;
+}
+
+.full{
+    width: 100%;
+}
+
+.left_column{
+    text-align: left;
+    width: 25%;
+}
+
+a[href^="mailto:"]
+{ 
+    font-family: 'Fontin Sans Rg';
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.a4_format{
+    width:21cm;
+    height:29.7cm;
+    margin: 0mm 0mm 0mm 0mm;
+}
+
+.list_same_vertical_position{
+    position:relative;
+    left:-20px;
+    top: -10px;
+    margin-bottom: -3px;
+}
+
+.pagebreak{
+    page-break-before: always; 
+}
+
+.text_top {
+    vertical-align: top;
+}
