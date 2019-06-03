@@ -1,10 +1,15 @@
+.my_name{
+    font-family: 'Fontin Sans Rg';
+    font-size: 23px;
+}
+
 .big_title{
-    font-family: 'Oswald';
+    font-family: 'Fontin Sans Rg';
     font-size: 25px;
 }
 
 .small_title{
-    font-family: 'Oswald';
+    font-family: 'Fontin Sans Rg';
     font-size: 15px;
 }
 
@@ -18,5 +23,5 @@
 }
 
 .contact_mail{
-    font-size: 14px;  
+    font-size: 14px;
 }
