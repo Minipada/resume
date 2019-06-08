@@ -11,7 +11,7 @@
     font-size:20px;
     font-weight:bold;
     position: fixed;
-    left: 2%;
+    right: 2%;
     top:50px;
     font-family: 'Fontin Sans Rg';
 }
@@ -32,7 +32,7 @@
     font-size:20px;
     font-weight:bold;
     position: fixed;
-    left: 2%;
+    right: 2%;
     bottom:50px;
     font-family: 'Fontin Sans Rg';
 }
