@@ -2,7 +2,6 @@
     font-family: 'Source Code Pro Medium';
     font-weight: bold;
     color: black;
-    font-size: 19px;
     vertical-align: top;
 }
 
@@ -45,7 +44,11 @@
 
 /* Get new flags on iconfinder.com */
 .flag{
-  width: 25px;
+  width: 20px;
   vertical-align: top;
   padding-right: 5px;
+}
+
+.details {
+  padding-left: 25px;
 }

@@ -40,7 +40,7 @@ body {
 }
 
 .blue3{
-    color: #47abc8; 
+    color: #47abc8;
 }
 
 .blue{
@@ -65,7 +65,7 @@ body {
 }
 
 a[href^="mailto:"]
-{ 
+{
     font-family: 'Fontin Sans Rg';
     font-weight: bold;
     font-size: 13px;
@@ -74,7 +74,7 @@ a[href^="mailto:"]
 .a4_format{
     width:21cm;
     height:29.7cm;
-    margin: 0mm 0mm 0mm 0mm;
+    margin: 8mm 8mm 0mm 6mm;
 }
 
 .list_same_vertical_position{
@@ -85,7 +85,7 @@ a[href^="mailto:"]
 }
 
 .pagebreak{
-    page-break-before: always; 
+    page-break-before: always;
 }
 
 .text_top {
