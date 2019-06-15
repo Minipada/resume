@@ -8,6 +8,7 @@
 .work_post{
     font-family: 'Fontin Sans Rg';
     font-size: 15px;
+    font-weight: bold;
 }
 
 .work_dates{
@@ -34,7 +35,6 @@
 
 .color-inherit{
     color: inherit;
-    font-size: 20px;
 }
 
 .quadcopter{
@@ -44,11 +44,11 @@
 
 /* Get new flags on iconfinder.com */
 .flag{
-  width: 20px;
-  vertical-align: top;
+  width: 24px;
+  vertical-align: sub;
   padding-right: 5px;
 }
 
-.details {
-  padding-left: 25px;
+.job_table {
+  padding-top: 10px;
 }
