@@ -1,25 +1,21 @@
 .my_name{
     font-family: 'Fontin Sans Rg';
-    font-size: 27px;
+    font-size: 23px;
 }
 
 .big_title{
     font-family: 'Fontin Sans Rg';
-    font-size: 27px;
+    font-size: 18px;
 }
 
 .small_title{
     font-family: 'Fontin Sans Rg';
-    font-size: 19px;
+    font-size: 14px;
 }
 
 .font_awesome_title{
     font-family: 'FontAwesome';
     font-size: 19px;
-}
-
-.info_persos{
-    padding-bottom: 6px;
 }
 
 .contact_icon{

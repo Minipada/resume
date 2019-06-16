@@ -6,12 +6,13 @@
 body {
     height: auto;
     background:#FFF;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .dotted_line {
     border-top: 2px dotted #686868;
     width:100%;
+    margin-top: 0px;
 }
 
 .text{
@@ -27,7 +28,7 @@ body {
 .text_italic{
     font-family: 'Fontin Sans Rg';
     font-style: italic;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 /* */
@@ -71,15 +72,17 @@ a[href^="mailto:"]
 }
 
 .a4_format{
-    width:25cm;
-    height:37.125cm;
-    margin: 8mm 8mm 0mm 6mm;
+    margin-left: 8mm;
+    margin-top: 8mm;
+    width:20cm;
+    height:26cm;
 }
 
 .list_same_vertical_position{
     padding-left: 20px;
     top: -10px;
-    margin-bottom: -3px;
+    margin-bottom: -5px;
+    margin-top: 4px;
 }
 
 .pagebreak{
