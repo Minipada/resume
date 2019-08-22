@@ -6,7 +6,7 @@
 body {
     height: auto;
     background:#FFF;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .dotted_line {
@@ -28,7 +28,7 @@ body {
 .text_italic{
     font-family: 'Fontin Sans Rg';
     font-style: italic;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 /* */
@@ -74,7 +74,7 @@ a[href^="mailto:"]
 .a4_format{
     margin-left: 8mm;
     margin-top: 8mm;
-    width:20cm;
+    width:24cm;
     height:26cm;
 }
 
