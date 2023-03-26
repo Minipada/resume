@@ -5,7 +5,7 @@
   padding: 0;
   list-style-type: none;
   margin-bottom: 20px;
-  width: 500px;
+  width: 600px;
   justify-content: center;
 }
 
@@ -20,12 +20,23 @@
   font-size: 22px;
   background-color: #f0ecec;
   font-color: black;
-  flex: 0 0 40%;
+  flex: 0 0 33%;
 }
 
 .description-project {
   font-size: 15px;
   text-align: left;
+}
+
+.technology.highlighted::before {
+  content: "\2605";
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #f1c40f;
+}
+
+.technology.highlighted{
+  font-weight: bold;
 }
 
 .technology {
@@ -71,4 +82,23 @@
   font-weight: 700;
   font-family: 'Montserrat';
   margin-top: 20px;
+}
+
+.img-fluid {
+  max-height: 14rem !important;
+}
+
+#img-profile {
+  max-height: 20rem !important;
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
+
+a.link_blue_background {
+  color: mediumblue;
 }

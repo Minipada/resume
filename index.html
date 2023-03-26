@@ -1,490 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Devops and Embedded Freelance, 5 years experience. Already set up for multiple clients full release cycle. Mail me @ david[at]bensoussan[dot]xyz">
-    <meta name="author" content="David Bensoussan">
-    <meta name="keywords" content="amazon web services,ansible,apache,arduino,bash,c,cmake,cloudflare,dns,devops,docker,esp microcontrollers,embedded systems,ghost,grafana,groovy,helm,influxdb,jenkins,kubernetes,latex,linux,make,nginx,packer,prometheus,regular expressions,shell,swarm,terraform,ubuntu,vmware,xml,yocto">
-    <meta property="og:title" content="David Bensoussan's website"/>
-    <meta property='og:image' content='https://bensoussan.xyz/img/profile.png'/>
-    <meta property="og:description" content="David bensoussan's work"/>
-    <meta property="og:url" content="https://bensoussan.xyz"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Devops and Embedded Freelance, 5 years experience. Already set up for multiple clients full release cycle. Mail me @ david[at]bensoussan[dot]xyz">
+  <meta name="author" content="David Bensoussan">
+  <meta name="keywords"
+    content="amazon web services,ansible,apache,arduino,bash,c,cmake,cloudflare,dns,devops,docker,esp microcontrollers,embedded systems,ghost,grafana,groovy,helm,influxdb,jenkins,kubernetes,latex,linux,make,nginx,packer,prometheus,regular expressions,shell,swarm,terraform,ubuntu,vmware,xml,yocto">
+  <meta property="og:title" content="David Bensoussan's website" />
+  <meta property='og:image' content='https://bensoussan.xyz/img/profile_2023.png' />
+  <meta property="og:description" content="David bensoussan's work" />
+  <meta property="og:url" content="https://bensoussan.xyz" />
 
 
-    <title>David Bensoussan - Software Engineer</title>
-    <link rel="icon" href="img/db_icon.png">
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>David Bensoussan - Software Engineer</title>
+  <link rel="icon" href="img/db_icon.png">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <!-- Custom styles for myself -->
-    <link href="css/db.min.css" rel="stylesheet">
+  <!-- Custom styles for myself -->
+  <link href="css/db.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">David Bensoussan</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#stacks">Stacks</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">David Bensoussan</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
+        data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#stacks">Stacks</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#startups">Startups</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#open-source">Open Source</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About me</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container">
+      <img id="img-profile" class="mb-5 d-block mx-auto" src="img/profile_2023.jpg" alt="">
+      <h1 class="text-uppercase mb-0">David Bensoussan</h1>
+      <hr class="star-light">
+      <h2 class="font-weight-light mb-0">Combining established and cutting-edge tech for seamless Robotics and IoT
+        integration</h2>
+    </div>
+  </header>
+
+  <!-- Stacks Section -->
+  <section class="portfolio" id="stacks">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Stacks</h2>
+      <hr class="star-dark mb-5">
+      <div class="stack_list">
+        <div class="stack-cat">Embedded + Robotics</div>
+        <div class="technology highlighted">ROS</div>
+        <div class="technology highlighted">Python</div>
+        <div class="technology">Arm/arm64</div>
+        <div class="technology">C</div>
+        <div class="technology">C++</div>
+        <div class="technology">ESP Microcontrollers</div>
+        <div class="technology">Raspberrypi</div>
+        <div class="technology">Up board</div>
+
+        <div class="stack-cat">Devops + Cloud</div>
+        <div class="technology highlighted">AWS Cloudformation</div>
+        <div class="technology highlighted">AWS Cognito</div>
+        <div class="technology highlighted">AWS DynamoDB</div>
+        <div class="technology highlighted">AWS EC2</div>
+        <div class="technology highlighted">AWS IoT Greengrass</div>
+        <div class="technology highlighted">AWS Kinesis</div>
+        <div class="technology highlighted">AWS S3</div>
+        <div class="technology highlighted">Ansible</div>
+        <div class="technology highlighted">Docker</div>
+        <div class="technology highlighted">Github actions</div>
+        <div class="technology highlighted">Jenkins</div>
+        <div class="technology highlighted">Fluent Bit</div>
+        <div class="technology highlighted">PostgreSQL</div>
+        <div class="technology">Grafana</div>
+        <div class="technology">InfluxDB</div>
+        <div class="technology">Kubernetes</div>
+        <div class="technology">MinIO</div>
+        <div class="technology">Nginx</div>
+        <div class="technology">On premise infrastructure</div>
+        <div class="technology">Packer</div>
+        <div class="technology">Traefik</div>
+        <div class="technology">Terraform</div>
+
+        <div class="stack-cat">Linux + Architect</div>
+        <div class="technology highlighted">pytest</div>
+        <div class="technology highlighted">Bash</div>
+        <div class="technology highlighted">Yocto</div>
+        <div class="technology">Cross compiling</div>
+        <div class="technology">gdb</div>
+        <div class="technology">Linux</div>
+        <div class="technology">QEMU</div>
+        <div class="technology">Real time</div>
+        <div class="technology">Systemd</div>
+        <div class="technology">Sysvinit</div>
+        <div class="technology">Virtualization</div>
+        <div class="technology">VMware</div>
+
+        <div class="stack-cat">Web</div>
+        <div class="technology highlighted">API development</div>
+        <div class="technology highlighted">Dashboard development</div>
+        <div class="technology highlighted">Boostrap</div>
+        <div class="technology highlighted">FastAPI</div>
+        <div class="technology">Javascript</div>
+        <div class="technology">Flask</div>
+
+        <div class="stack-cat">Others</div>
+        <div class="technology highlighted">Git</div>
+        <div class="technology">CMake</div>
+        <div class="technology">Make</div>
+        <div class="technology">openhtf</div>
+        <div class="technology">Regular expressions</div>
+        <div class="technology">TDD</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="startups">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Company I founded</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-brisa">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/brisa-vertical.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="resume">
+    <h2 class="text-center text-uppercase text-secondary mb-0">Resume</h2>
+    <hr class="star-dark mb-5">
+    <div class="button_center"><a class="button" role="button" href="resume/Resume_David_Bensoussan.pdf">Get it</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="open-source">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Open source</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-dc">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/dc.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-gz-2d-map">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/gz-2d-ros-map.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-ros2-pre-commit">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/ros2-pre-commit.png" alt="">
+          </a>
+        </div>
+  </section>
+
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Job portfolio</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-sncn">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/roboyagi.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-feelix">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/feelix.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-sncn-2">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/oblac_box.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">About me</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">Proven automation expert with cross-discipline competences in robotics, testing and
+            software development. I enjoy integrating established and new technologies to create
+            seamless connections between robotics and the Internet of Things. I am an accomplished CTO with expertise in
+            robotics, devops, and embedded systems. With a
+            proven track record of developing innovative solutions, I led a robotics startup named Brisa Robótica,
+            transforming non-autonomous machines into an autonomous fleet while collecting valuable data in a custom
+            dashboard. My experience working remotely with a global team, managing software engineers, and developing
+            sales strategies makes me an ideal candidate for any technical leadership role.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">One of my most valuable traits is my adaptability and anti-fragility. Throughout my career,
+            I've faced many challenges, such as leading remotely a startup in Brazil from Germany,
+            or working with minimalistic hardware for a testing infrastructure. Despite these obstacles, I have
+            consistently demonstrated my ability to pivot and adapt to changing circumstances, finding creative
+            solutions to complex problems. I'm also a natural collaborator who recognizes the importance of processes,
+            and I'm always looking for ways to support
+            and uplift my team members, helping to build a strong and positive work culture.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8 mx-auto">
+          Online:
+          <br>
+          <b><a class="link_blue_background" target="_blank" href="https://brisa.tech">https://www.brisa.tech/</b><br>
+          <b><a class="link_blue_background" target="_blank"
+              href="https://www.linkedin.com/company/11711423">LinkedIn</b></a><br>
+          <b><a class="link_blue_background" target="_blank"
+              href="https://aws.amazon.com/blogs/robotics/how-brisa-robotics-uses-aws-to-improve-robotics-operations/">AWS
+              Robotics Blog</b></a><br>
+          <b><a class="link_blue_background" target="_blank"
+              href="https://revistapegn.globo.com/Startups/noticia/2021/06/startup-que-renova-vida-util-de-maquinas-industriais-recebe-r-12-mi-de-fundo-gerido-pela-domo-invest.html">In
+              "Empresas
+              e Negócios", one of the most important newspapers in Brazil</b></a><br>
+          <b><a class="link_blue_background" target="_blank"
+              href="https://scinova.com.br/brisa-robotica-quer-conectar-solucoes-ao-maior-parque-industrial-de-sc/">In
+              "SC inova", the most important newspaper in Santa Catarina, heart of industry in Brazil</b></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <p>For any inquiry, please contact me at <a href="mailto:d.bensoussan@proton.me">d.bensoussan@proton.me</a>.
+          </p>
+          <p>If
+            your inquiry relates to bugs or open-source project feature requests, consider posting a ticket on the
+            GitHub project.
+            If your inquiry relates to configuration support or private feature development, reach out and we will be
+            able
+            to support you in your projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">20253, Hamburg
+          </p>
+        </div>
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/minipada">
+                <i class="fa fa-fw fa-github"></i>
+              </a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
-              </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About me</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle"
+                href="https://www.linkedin.com/in/david-bensoussan-715a0b72/">
+                <i class="fa fa-fw fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">David Bensoussan</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Embedded + Robotics / Devops + Cloud / Linux OS + Architect</h2>
-      </div>
-    </header>
-
-    <!-- Stacks Section -->
-    <section class="portfolio" id="stacks">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Stacks</h2>
-        <hr class="star-dark mb-5">
-        <div class="stack_list">
-          <div class="stack-cat">Embedded + Robotics</div>
-          <div class="technology">Arm/arm64</div>
-          <div class="technology">C</div>
-          <div class="technology">ESP Microcontrollers</div>
-          <div class="technology">Embedded systems</div>
-          <div class="technology">Python</div>
-          <div class="technology">Raspberrypi</div>
-          <div class="technology">ROS</div>
-          <div class="technology">Up board</div>
-
-          <div class="stack-cat">Devops + Cloud</div>
-          <div class="technology">AWS</div>
-          <div class="technology">Ansible</div>
-          <div class="technology">Apache</div>
-          <div class="technology">Autoscaling</div>
-          <div class="technology">Cloudflare</div>
-          <div class="technology">DNS</div>
-          <div class="technology">Docker</div>
-          <div class="technology">Drone</div>
-          <div class="technology">Google Cloud</div>
-          <div class="technology">Grafana</div>
-          <div class="technology">Groovy</div>
-          <div class="technology">Helm</div>
-          <div class="technology">Hetzner</div>
-          <div class="technology">InfluxDB</div>
-          <div class="technology">Jenkins</div>
-          <div class="technology">Jenkins X</div>
-          <div class="technology">Kubernetes</div>
-          <div class="technology">Minikube</div>
-          <div class="technology">Nginx</div>
-          <div class="technology">On premise infrastructure</div>
-          <div class="technology">OVH</div>
-          <div class="technology">Packer</div>
-          <div class="technology">Prometheus</div>
-          <div class="technology">Swarm</div>
-          <div class="technology">Traefik</div>
-          <div class="technology">Terraform</div>
-
-          <div class="stack-cat">Linux + Architect</div>
-          <div class="technology">Bash</div>
-          <div class="technology">Design patterns</div>
-          <div class="technology">Cross compiling</div>
-          <div class="technology">gdb</div>
-          <div class="technology">Linux</div>
-          <div class="technology">pytest</div>
-          <div class="technology">QEMU</div>
-          <div class="technology">Real time</div>
-          <div class="technology">Systemd</div>
-          <div class="technology">Sysvinit</div>
-          <div class="technology">Virtualization</div>
-          <div class="technology">VMware</div>
-          <div class="technology">Yocto</div>
-
-          <div class="stack-cat">Others</div>
-          <div class="technology">CMake</div>
-          <div class="technology">Git</div>
-          <div class="technology">Make</div>
-          <div class="technology">openhtf</div>
-          <div class="technology">Regular expressions</div>
-          <div class="technology">TDD</div>
+        <div class="col-md-4">
+          <h4 class="text-uppercase mb-4">About Freelancer</h4>
+          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <section class="portfolio" id="resume">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Resume</h2>
-        <hr class="star-dark mb-5">
-        <div class="button_center"><a class="button" role="button" href="resume/Resume_David_Bensoussan.pdf">Get it</a></div>
-    </section>
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; David Bensoussan</small>
+    </div>
+  </div>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal Brisa -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-brisa">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/feelix.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/roboyagi.jpeg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/oblac_box.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-              <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                    <i class="fa fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img class="img-fluid" src="img/portfolio/consulting.jpg" alt="">
-              </a>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About me</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Self made, proven automation expert with cross-discipline competences in robotics, testing and software development. Passion for bringing modern tools and technologies to the industrial and robotics world. I love automation, enabling teams to deliver faster code by doing better continuous integration.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Beside devops, I have been working in the past with high and low level robotics (ROS and microcontroller programming). I still have much interest in opensource projects like ROS, Yocto and Linux kernel to which I often contribute.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
-        <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <p>I can improve your continuous integration and delivery processes, quality assurance and dockerize your applications: web apps, robotics and embedded</p>
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-              </div>
-            </form>
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Brisa — A robotics startup built from the ground
+              up</h2>
+            <hr class="star-dark mb-5">
+            <p>Duration: <b>3.5 years</b></br>
+              <b><a target="_blank" href="https://brisa.tech">https://www.brisa.tech/</b><br>
+              <b><a target="_blank" href="https://www.linkedin.com/company/11711423">LinkedIn</b></a><br>
+              <b><a target="_blank"
+                  href="https://aws.amazon.com/blogs/robotics/how-brisa-robotics-uses-aws-to-improve-robotics-operations/">AWS
+                  Robotics Blog</b></a><br>
+              <b><a target="_blank"
+                  href="https://revistapegn.globo.com/Startups/noticia/2021/06/startup-que-renova-vida-util-de-maquinas-industriais-recebe-r-12-mi-de-fundo-gerido-pela-domo-invest.html">In
+                  "Empresas
+                  e Negócios", one of the most important newspapers in Brazil</b></a><br>
+              <b><a target="_blank"
+                  href="https://scinova.com.br/brisa-robotica-quer-conectar-solucoes-ao-maior-parque-industrial-de-sc/">In
+                  "SC inova", the most important newspaper in Santa Catarina, heart of industry in Brazil</b></a>
+            </p>
+
+            <p>As the CTO of Brisa Robótica, I was responsible for leading the development of our company's autonomous
+              robotics solutions and custom data dashboard. Our startup specialized in transforming non-autonomous
+              machines into an autonomous fleet and providing customized metrics to help our clients optimize their
+              KPIs.</p>
+
+            <p>I faced various technical challenges, such as reverse-engineering machines, developing robotics
+              software
+              and developing our customers' dashboards. Additionally, I managed a team of software engineers, guided
+              product timelines, and ensured the features aligned with our company's vision.</p>
+
+            <p>Brisa Robótica had two main business areas. The first involved taking existing machines and upgrading
+              them
+              into autonomous robots. The second involved collecting data from upgraded or existing robots to display in
+              a customized dashboard. I worked closely with our clients to understand their individual use cases,
+              developing modular data collection and dashboard solutions to meet their unique needs.</p>
+
+            <p>One of the unique challenges of my role was managing the business remotely from Germany while Brisa
+              Robótica was located in Brazil. I had to learn about cultural differences with clients and work to
+              overcome language barriers. I was also responsible for creating marketing materials, including sales
+              slides and social media content, to promote our company's services and solutions. As a remote CTO based in
+              Germany, I had to create software abstractions that would allow our team in Brazil to work seamlessly with
+              me. This involved simple processes with a high flexibility to ensure that the team could work
+              independently and efficiently on-site, despite the physical distance.</p>
+
+            <p>One of the key aspects of our success was partnering with industry leaders. We created partnerships
+              with
+              ABB Synerleap, ABB's innovation growth hub that helps startups accelerate and expand on a global market.
+              We also worked with the AWS Robotics team to leverage their cloud platform and tools to develop and deploy
+              our solutions.</p>
+
+            <p>Unfortunately, despite our efforts and the potential for our technology, Brisa Robótica ultimately
+              failed.
+              The high cost of our solutions, due in part to high import taxes on hardware, made us less competitive
+              than manual labor. Additionally, the market for automation in Brazil was still small and risky, and we
+              were unable to secure key clients. Despite these challenges, I am proud of the progress we made in
+              developing cutting-edge technology and creating valuable partnerships with industry leaders.</p>
+
+            <p>Overall, my experience at Brisa Robótica involved leading the development of a cutting-edge technology
+              solution, managing a team of software engineers, and creating customized data dashboards to meet the
+              individual needs of our clients. This was the hardest challenge and I grew out of it
+            </p>
+            <img class="w-100" src="img/portfolio/brisa-group.jpg">
+            <img class="w-100" src="img/portfolio/brisa-ambev.jpg">
+            <video class="w-100" playsinline controls>
+              <source src="img/portfolio/brisa.mp4" type="video/mp4" />
+            </video>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-feelix">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Reußensteinstraße 10
-              <br>71032, Böblingen</p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/minipada">
-                  <i class="fa fa-fw fa-github"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/david-bensoussan-715a0b72/">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Dockerizing, automating software stack deployment
+              and CI/CD</h2>
+            <hr class="star-dark mb-5">
+            <p>Duration: <b>1 year (part time)</b></br>
+            <p class="description-project mb-5">Devops manager, putting the 4 main company software (nodejs and Angular)
+              in containers.
+              I then initiated the whole CI/CD pipeline automation. I also automated their deployment to deliver to more
+              clients in a reliable way by closing working with the development team.</br>
+              <b><a href="https://www.myfeelix.de">https://www.myfeelix.de</a></b><br />
+              <b>1 year contract</b>
+            </p>
+            <ul class="skill-list">
+              <li class="skill">Docker</li>
+              <li class="skill">Nginx</li>
+              <li class="skill">Apache</li>
+              <li class="skill">Jenkins</li>
+              <li class="skill">CI/CD</li>
+              <li class="skill">Traefik</li>
+              <li class="skill">MySql</li>
+              <li class="skill">Signavio</li>
             </ul>
-          </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
-    </footer>
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; David Bensoussan 2018</small>
-      </div>
     </div>
+  </div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-sncn">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
       </a>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Autonomous robotics lawnmower</h2>
+            <hr class="star-dark mb-5">
+            <p>Duration: <b>2.5 years</b></br>
+              <b><a href="https://synapticon.com">https://synapticon.com</b>
+            </p>
 
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0 text-center">Dockerizing, automating software stack deployment and CI/CD</h2>
-              <hr class="star-dark mb-5">
-              <p>Duration: <b>1 year (15 hours/week)</b></br>
-              <p class="description-project mb-5">Devops manager, putting the 4 main company software (nodejs and Angular) in containers.
-                  I then initiated the whole CI/CD pipeline automation. I also automated their deployment to deliver to more clients in a reliable way by closing working with the development team.</br>
-                <b><a href="https://www.myfeelix.de">https://www.myfeelix.de</a></b><br />
-                <b>1 year contract</b></p>
-              <ul class="skill-list">
-                <li class="skill">Docker</li>
-                <li class="skill">Gitlab</li>
-                <li class="skill">Nginx</li>
-                <li class="skill">Apache</li>
-                <li class="skill">Jenkins</li>
-                <li class="skill">CI/CD</li>
-                <li class="skill">Traefik</li>
-                <li class="skill">MySql</li>
-                <li class="skill">Signavio</li>
+            <a>I worked on this project in a team of 5 people following agile. Given the small size of the team and
+              being in a startup, I worked on different topics:
+              <ul>
+                <li>Embedded C: Developed 15 low level applications and libraries on XMOS multicore chips: sensor data
+                  acquisition (encoder, imu, lidar), motor control, odometry. Refactored common code out of 5 libraries
+                  reducing total memory used by 25%</li>
+                <li>Devops: Initiated, architected and managed a fully automated CI/CD pipeline, deployed microservice
+                  infrastructure for multiple architectures and providers (AWS for amd64 and Scaleway for arm64), wrote
+                  and automated processes and QA. Packaged C++/python applications in debian packages at start and then
+                  in containers later on</li>
+                <li>Embedded Systems: Developed from scratch and maintained a minimalistic embedded Linux running on the
+                  robot aith OTA update. Debugged and optimized software libraries to be able to run on arm64. Optimized
+                  one OS to boot and start all applications in under 6 seconds</li>
               </ul>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
+              Contributed back to open source: cartographer, Jenkins, mender, the Linux kernel, ROS (Infrastructure and
+              code), wiringpi, yocto and most tools I used.
+              Tested robots on fields, indoor and outdoor, familiar planning client demonstrations and fulfilling their
+              requirements until last moments when required.
+            </a>
+            <ul class="skill-list">
+              <li class="skill">Docker</li>
+              <li class="skill">Jenkins</li>
+              <li class="skill">AWS/Scaleway</li>
+              <li class="skill">Apache</li>
+              <li class="skill">x86_64/ARM64</li>
+              <li class="skill">Terraform</li>
+              <li class="skill">Packer</li>
+              <li class="skill">Yocto</li>
+              <li class="skill">Autoscaling</li>
+              <li class="skill">ROS</li>
+              <li class="skill">Virtual machines</li>
+              <li class="skill">Embedded Systems</li>
+              <li class="skill">Embedded C</li>
+              <li class="skill">OTA Updates</li>
+              <li class="skill">Real Time Kernel</li>
+            </ul>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0 text-center">Autonomous robotics lawnmower</h2>
-              <hr class="star-dark mb-5">
-              <p>Duration: <b>2.5 years</b></br>
-              <b><a href="https://synapticon.com">https://synapticon.com</b></p>
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-sncn-2">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Design and development of a scalable automated
+              testing infrastructure for robotics hardware</h2>
+            <hr class="star-dark mb-5">
+            <p>Duration: <b>6 months</b></br>
+              <b><a href="https://synapticon.com">https://synapticon.com</b>
+            </p>
 
-              <a>I worked on this project in a team of 5 people following agile. Given the small size of the team and being in a startup, I worked on different topics:
-                <ul>
-                  <li>Embedded C: Developed 15 low level applications and libraries on XMOS multicore chips: sensor data acquisition (encoder, imu, lidar), motor control, odometry. Refactored common code out of 5 libraries reducing total memory used by 25%</li>
-                  <li>Devops: Initiated, architected and managed a fully automated CI/CD pipeline, deployed microservice infrastructure for multiple architectures and providers (AWS for amd64 and Scaleway for arm64), wrote and automated processes and QA. Packaged C++/python applications in debian packages at start and then in containers later on</li>
-                  <li>Embedded Systems: Developed from scratch and maintained a minimalistic embedded Linux running on the robot aith OTA update. Debugged and optimized software libraries to be able to run on arm64. Optimized one OS to boot and start all applications in under 6 seconds</li>
-                </ul>
-                  Contributed back to open source: cartographer, Jenkins, mender, the Linux kernel, ROS (Infrastructure and code), wiringpi, yocto and most tools I used.
-                  Tested robots on fields, indoor and outdoor, familiar planning client demonstrations and fulfilling their requirements until last moments when required.</a>
-              <ul class="skill-list">
-                <li class="skill">Docker</li>
-                <li class="skill">Jenkins</li>
-                <li class="skill">AWS/Scaleway</li>
-                <li class="skill">Apache</li>
-                <li class="skill">x86_64/ARM64</li>
-                <li class="skill">Terraform</li>
-                <li class="skill">Packer</li>
-                <li class="skill">Yocto</li>
-                <li class="skill">Autoscaling</li>
-                <li class="skill">ROS</li>
-                <li class="skill">Virtual machines</li>
-                <li class="skill">Embedded Systems</li>
-                <li class="skill">Embedded C</li>
-                <li class="skill">OTA Updates</li>
-                <li class="skill">Real Time Kernel</li>
-              </ul>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
+            <a>I developed a complete CI/CD pipeline for a testing infrastructure for robotics hardware. This farm is
+              testing motor controllers, IOs, and robots.</br>
+              The master runs on a standard PC and all the slaves executing the tasks work on premise minimalistic
+              hardware (Up squared boards).</br>
+              Developing CI/CD is in itself challenging, but working on on premise minimalistic hardware add challenges
+              such as minimalistic resources. Adding onto this working with hardware (that can burn and some which cost
+              tens of thousands of dollars) requires total control.</br>
+              The tasks related to devops topics included automating the machines OS creations with Yocto, provisioning
+              them afterward with Ansible and enable OTA update of each machine with Mender.</br>
+              With a ready infrastructure, I implemented the tests in python using openhtf (test framework by Google
+              made for hardware), acceptance test report and procedure. I also worked on tracking requirements to the
+              tests to track what was fulfilled. For this, I closely worked with the product manager and safety
+              manager.</br></a>
+            <ul class="skill-list">
+              <li class="skill">Docker</li>
+              <li class="skill">CI/CD on Hardware</li>
+              <li class="skill">Jenkins</li>
+              <li class="skill">Yocto</li>
+              <li class="skill">Embedded Systems</li>
+              <li class="skill">On Premise Infrastructure</li>
+              <li class="skill">OTA Updates</li>
+              <li class="skill">Real Time Kernel</li>
+            </ul>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0 text-center">Design and development of a scalable automated testing infrastructure for robotics hardware</h2>
-                <hr class="star-dark mb-5">
-                <p>Duration: <b>6 months</b></br>
-                <b><a href="https://synapticon.com">https://synapticon.com</b></p>
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-dc">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">DC - Data Collection Framework for ROS2</h2>
+            <hr class="star-dark mb-5">
+            <p>The DC project aims at integrating data collection pipelines into ROS 2. This is meant to plug to
+              existing APIs, for analytics, not for live monitoring (some awesome tools exist already). Understanding
+              and improving operations for any type of machine in any environment has become an important reason
+              companies move to autonomous robots. This involves mostly pick and drop and inspection operations. This
+              framework aims at helping collecting, validating and sending reliably the data to create such APIs and
+              dashboards.</p>
 
-                <a>I developed a complete CI/CD pipeline for a testing infrastructure for robotics hardware. This farm is testing motor controllers, IOs, and robots.</br>
-                    The master runs on a standard PC and all the slaves executing the tasks work on premise minimalistic hardware (Up squared boards).</br>
-                    Developing CI/CD is in itself challenging, but working on on premise minimalistic hardware add challenges such as minimalistic resources. Adding onto this working with hardware (that can burn and some which cost tens of thousands of dollars) requires total control.</br>
-                    The tasks related to devops topics included automating the machines OS creations with Yocto, provisioning them afterward with Ansible and enable OTA update of each machine with Mender.</br>
-                    With a ready infrastructure, I implemented the tests in python using openhtf (test framework by Google made for hardware), acceptance test report and procedure. I also worked on tracking requirements to the tests to track what was fulfilled. For this, I closely worked with the product manager and safety manager.</br></a>
-                  <ul class="skill-list">
-                      <li class="skill">Docker</li>
-                      <li class="skill">CI/CD on Hardware</li>
-                      <li class="skill">Jenkins</li>
-                      <li class="skill">Yocto</li>
-                      <li class="skill">Embedded Systems</li>
-                      <li class="skill">On Premise Infrastructure</li>
-                      <li class="skill">OTA Updates</li>
-                      <li class="skill">Real Time Kernel</li>
-                    </ul>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  Close Project</a>
-              </div>
-            </div>
+            <p>
+              DC uses a modular approach, based on <a target=”_blank”
+                href="https://index.ros.org/p/pluginlib/">pluginlib</a> and
+              greatly inspired
+              by <a target=”_blank” href="https://navigation.ros.org">Nav2</a> for its architecture. Pluginlib is used
+              to configure
+              which
+              measurements are collected and where the data goes. Measurements and destinations are pluginlib plugins.
+              In addition to pluginlib, most plugins use <a href="https://fluentbit.io">Fluent bit</a> in the backend:
+              <i>Fluent Bit
+                is a super fast, lightweight, and highly scalable logging and metrics processor and forwarder. It is the
+                preferred choice for cloud and containerized environments. Developed and interfaced in C, it has already
+                many features we directly can use, especially: high performance, reliability and data integrity
+                (backpressure handling and data buffering in memory and filesystem)</i>.
+
+            </p>
+            <a target=”_blank” href="https://github.com/Minipada/ros2_data_collection">Take a look on
+              Github!<br><br></a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0 text-center">Consulting services</h2>
-                <hr class="star-dark mb-5">
-                <a>Guiding companies to develop proof of concepts and chose technologies (less than a work week projects) or develop them myself:
-                <ul>
-                  <li><b>Embedded Systems</b>: making minimalistic Embedded OS for raspberrypi, beaglebone and other boards. Integrate realtime kernel, virtualization tools, Docker and OTA updates</li>
-                  <li><b>Devops</b>: Continuous integration and delivery pipelines for web applications (Node, Angular), ROS projects (packaging, containerization) and Embedded software projects</li>
-                  <li><b>Acceptance testing on hardware</b>: Manage requirements and acceptance testing reports and processes</li>
-                </ul></a>
-                <ul class="skill-list">
-                  <li class="skill">Embedded Systems</li>
-                  <li class="skill">Devops</li>
-                  <li class="skill">Testing</li>
-                </ul>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  Close Project</a>
-              </div>
-            </div>
+  <!-- Portfolio Modal GZ plugin -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-gz-2d-map">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Gazebo world to ROS 2D map plugin</h2>
+            <hr class="star-dark mb-5">
+            <p>This project aims at transforming a Gazebo world environment to a 2D map readable by nav2 map
+              server. This is especially practical when having large map and wanting to avoid doing an exploration where
+              the robot can get lost and the mapping process would have to be redone from scratch</p>
+            <p>This is a port of a project initiated by ETH Zurich and ported to ROS1. My work has been to adapt it to
+              work on more recent ROS2 versions.</p>
+            <a target=”_blank” href="https://github.com/Minipada/gazebo_ros_2d_map">Take a look on
+              Github!<br></a>
+
+            <img src="img/portfolio/gz-2d-ros-map-img.png"><br><br>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Portfolio Modal Pre commit hooks -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-ros2-pre-commit">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">Pre-commit hooks for ROS2</h2>
+            <hr class="star-dark mb-5">
+            <p>Improve ROS2 workflow with <a href="https://pre-commit.com/" target="_blank">pre-commit</a> hooks</p>
+            <ol>
+              <li><b>Same versions:</b> Ensure all packages of a repository are of the same version. This is needed for
+                bloom to build debian packages.</li>
+              <li><b>Metadata:</b> Ensure metadata is set in selected packages of a repository (license, maintainer and
+                description).</li>
+            </ol>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+            <a target=”_blank” href="https://github.com/Minipada/ros2_pre-commit">Take a look on
+              Github!<br></a>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+  <script src="js/theme.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
 
 </html>

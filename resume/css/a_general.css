@@ -65,6 +65,11 @@ body {
     width: 25%;
 }
 
+.languages_column{
+    text-align: left;
+    width: 33%;
+}
+
 a[href^="mailto:"]
 {
     font-family: 'Fontin Sans Rg';
@@ -91,4 +96,16 @@ a[href^="mailto:"]
 
 .text_top {
     vertical-align: top;
+}
+
+#icon-home {
+    width: 25px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mt-0 {
+    margin-top: 0px !important;
 }

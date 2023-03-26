@@ -11,7 +11,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
-$to = "david@bensoussan.xyz";
+$to = "d.bensoussan@proton.me";
 $subject = "Wesbite contact Form:  $name";
 $body = "<b>Name</b>: $name<br /><b>Email</b>: $email<br /><b>Phone</b>: $phone<br /><br /><b>Message</b>:<br />$message";
 $header = "From: david@bensoussan.xyz\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
