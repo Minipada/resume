@@ -1,84 +1,17 @@
-/* html *
-{
-   font-size: 16px;
-} */
-
 body {
     height: auto;
     background:#FFF;
     font-size: 16px;
-}
-
-.dotted_line {
-    border-top: 2px dotted #686868;
-    width:100%;
-    margin-top: 0px;
-}
-
-.text{
-    font-family: 'Fontin Sans Rg';
-    text-align : justify;
-}
-
-.text_bold{
-    font-family: 'Fontin Sans Rg';
-    font-weight: bold;
-}
-
-.text_italic{
-    font-family: 'Fontin Sans Rg';
-    font-style: italic;
-    font-size: 16px;
-}
-
-/* */
-.blue{
-    color: #385492;
-}
-
-.blue2{
-    color: #468499;
-}
-
-.blue3{
-    color: #47abc8;
-}
-
-.blue{
-    color: #5373b8;
-}
-
-.blue{
-    color: #3c62b4;
-}
-
-.black{
     color: black;
 }
 
-.full{
-    width: 100%;
+.title {
+    font-size: 27px;
 }
 
-.left_column{
-    text-align: left;
-    width: 25%;
-}
-
-.uni_column{
-    text-align: left;
-    width: 15%;
-}
-
-.languages_column{
-    text-align: left;
-    width: 33%;
-}
-
-a[href^="mailto:"]
-{
+a, div, p, h1, h2, h3 {
     font-family: 'Fontin Sans Rg';
-    font-weight: bold;
+    color: black;
 }
 
 .a4_format{
@@ -88,29 +21,43 @@ a[href^="mailto:"]
     height:26cm;
 }
 
-.list_same_vertical_position{
-    padding-left: 20px;
-    top: -10px;
-    margin-bottom: -5px;
-    margin-top: 4px;
-}
-
 .pagebreak{
     page-break-before: always;
 }
 
-.text_top {
-    vertical-align: top;
+.img-icon-size {
+    width: 20px;
 }
 
-#icon-home {
-    width: 25px;
+a:link, a:visited {
+    color: #3c62b4;
 }
 
-.mb-0 {
-    margin-bottom: 0px !important;
+a:hover {
+    color: inherit;
 }
 
-.mt-0 {
-    margin-top: 0px !important;
+.dotted_line {
+    border-top: 2px dotted #686868;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+}
+
+.mw-75 {
+    max-width: 75% !important;
+}
+
+.description {
+    text-align: justify !important;
+}
+
+/* Get new flags on iconfinder.com */
+.flag {
+    width: 23px;
+    vertical-align: sub;
+}
+
+li{
+    margin-bottom: 6px;
 }
