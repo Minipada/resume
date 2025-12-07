@@ -1,9 +1,9 @@
 # Build
 
 ```bash
-sudo cp css/fonts/*.ttf /usr/share/fonts
+sudo cp fonts/*.ttf /usr/share/fonts
 fc-cache
-wkhtmltopdf index.html David_Bensoussan_EN.pdf
+wkhtmltopdf --enable-local-file-access index.html Resume_David_Bensoussan.pdf
 ```
 
 # Checklist

@@ -71,10 +71,10 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
   <div class="d-flex bd-highlight">
     <div class="bd-highlight">
       <h3 class="title">David Bensoussan</h3>
-      <div class="d-block">
+      <!--<div class="d-block">
         <i class="lni lni-website"></i>
         <a class="fw-bold align-text-bottom" href="https://bensoussan.xyz" target="_blank">bensoussan.xyz</a>
-      </div>
+      </div>-->
       <div class="d-block">
         <i class="lni lni-envelope"></i>
         <a class="fw-bold align-text-bottom" href="mailto:d.bensoussan@proton.me">d.bensoussan@proton.me</a>
@@ -90,7 +90,7 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
       </div>
       <div class="d-block">
         <i class="lni lni-whatsapp"></i>
-        <a class="fw-bold text-body text-decoration-none align-text-bottom">(+33)659971070</a>
+        <a class="fw-bold text-body text-decoration-none align-text-bottom">(+49)15144928958</a>
       </div>
       <div class="d-block">
         <img class="img-icon-size" src="img/noun-elbphilharmonie-1473767.png">
@@ -112,33 +112,19 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
       <hr class="dotted_line" />
       <div class="description">
         <p>
-          <a class="fw-bold text-body text-decoration-none">I integrate new and established technologies in
-            robotics and IoT,
-            with
-            a proven track record of implementing innovative solutions to complex challenges.</a>
+          <a class="fw-bold text-body text-decoration-none">I integrate new and established technologies in robotics,
+            IoT, and cloud to deliver dependable systems for remote and on-site teams.</a>
         </p>
-        <p>At Brisa Robótica, which I <a class="fw-bold text-body text-decoration-none">co-founded</a>,
-          I led 6
-          team members'
-          efforts to <a class="fw-bold text-body text-decoration-none">transform non-autonomous
-            machines into an autonomous
-            fleet</a>,
-          while at
-          Synapticon, I developed software stacks for an <a class="fw-bold text-body text-decoration-none">autonomous
-            lawnmower</a>
-          and <a class="fw-bold text-body text-decoration-none">scalable test
-            infrastructure</a> for embedded systems.</p>
-        <p>Unfortunately, Brisa Robótica faced challenges with high import taxes on hardware
-          and
-          a small and risky
-          market for automation in Brazil, which made it difficult to secure key clients. Despite our hard
-          work
-          and innovative solutions, these factors ultimately prevented us from achieving financial
-          sustainability.
-        </p>
-        <p>Therefore, I am seeking a new opportunity in <a class="fw-bold text-body text-decoration-none">Hamburg
-            or remotely</a>.
-        </p>
+        <p>At Bender Smart Charging, I drive the <a class="fw-bold text-body text-decoration-none">Buildroot/C++/Rust
+            monorepo migration</a>, rebuilt CI/CD to reach <a class="fw-bold text-body text-decoration-none">95%
+            pipeline reliability</a>, added <a class="fw-bold text-body text-decoration-none">VSEM + Grafana
+            visibility</a>, and authored <a class="fw-bold text-body text-decoration-none">Python hardware-test
+            APIs</a> so 70+ engineers can ship EV chargers confidently.</p>
+        <p>Earlier, as a <a class="fw-bold text-body text-decoration-none">co-founder of Brisa Robótica</a>, I led six
+          engineers to turn industrial machines into autonomous fleets with ROS data platforms, dashboards, and customer
+          tooling.</p>
+        <p>I'm currently delivering at Bender Smart Charging while remaining open to new opportunities in <a
+            class="fw-bold text-body text-decoration-none">Hamburg or remotely</a>.</p>
       </div>
     </div>
   </div>
@@ -146,6 +132,64 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
   <div class="pt-3">
     <h3 class="title d-inline">Experiences</h3>
     <hr class="dotted_line" />
+    <!-- Bender Smart Charging GmbH -->
+    <div class="pt-2">
+      <div class="d-flex bd-highlight">
+        <div class="bd-highlight">
+          <img class="flag" src="img/flag_germany.png">
+          <a class="h3 fw-bold text-body" href="https://www.bender.de/en/">Bender Smart
+            Charging GmbH</a>
+        </div>
+        <a class="bd-highlight ms-auto text-body text-decoration-none fst-italic">July 2023 -> Now —
+          Full
+          time
+          —
+          Full remote
+          —
+          Hamburg, Germany</a>
+      </div>
+      <div>
+        <div>
+          <a class="work_subtitle fw-bold text-decoration-none pe-auto">DevOps engineer for EV charging platform
+            modernization</a>
+        </div>
+      </div>
+      <div class="pt-3">
+        <ul class="ps-4 description">
+          <li>
+            <div><a class="fw-bold text-decoration-none">Unified every Buildroot/C/C++/Rust/Java repo into a single
+                monorepo</a> while keeping release history intact.</div>
+            <a class="fst-italic text-decoration-none">Git, Buildroot, Cargo</a>
+          </li>
+          <li>
+            <div><a class="fw-bold text-decoration-none">Ran new releases on hardened on-prem GitLab runners and kept
+                legacy Buildbot builders for old branches</a>, hitting <a class="fw-bold text-decoration-none">95%
+                pass rates</a> and cutting pipelines from 4h to 15m.</div>
+            <a class="fst-italic text-decoration-none">GitLab CI, Buildbot, Buildroot, runners, caching</a>
+          </li>
+          <li>
+            <div><a class="fw-bold text-decoration-none">Instrumented VSEM pipeline views with Grafana alerting</a> so
+              engineers spot bottlenecks and flakes before releases slip.</div>
+            <a class="fst-italic text-decoration-none">VSEM, Grafana, PostgreSQL</a>
+          </li>
+          <li>
+            <div><a class="fw-bold text-decoration-none">Built a Python client API for charger hardware tests</a>,
+              enabling scripted acceptance and regression suites end-to-end.</div>
+            <a class="fst-italic text-decoration-none">Python, pytest, Pydantic, hardware APIs</a>
+          </li>
+          <li>
+            <div><a class="fw-bold text-decoration-none">Moved legacy services to Linode Kubernetes</a> so distributed
+              teams deploy deterministically with less ops toil.</div>
+            <a class="fst-italic text-decoration-none">Linode, Kubernetes, Helm</a>
+          </li>
+          <li>
+            <div><a class="fw-bold text-decoration-none">Centralized binaries, firmware, and containers in
+                VPN-backed Artifactory</a> for secure retention and reproducible builds.</div>
+            <a class="fst-italic text-decoration-none">Artifactory, VPN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Brisa -->
     <div class="pt-2">
       <div class="d-flex bd-highlight">
@@ -154,7 +198,7 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
           <a class="h3 fw-bold text-body" href="https://www.linkedin.com/company/11711423">Brisa
             Robótica</a>
         </div>
-        <a class="bd-highlight ms-auto text-body text-decoration-none fst-italic">October 2019 -> March 2023 —
+        <a class="bd-highlight ms-auto text-body text-decoration-none fst-italic">October 2019 -> April 2023 —
           Full
           time
           —
@@ -223,8 +267,28 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
         </ul>
       </div>
     </div>
+    
+    <div class="pagebreak"></div>
+    <!-- Page 2 -->
+    <!-- Main info -->
+    <div class="pb-3 pt-4">
+      <div class="d-flex bd-highlight">
+        <div class="bd-highlight">
+          <h3 class="title">David Bensoussan</h3>
+        </div>
+        <div class="ps-2 flex-grow-1 bd-highlight mw-75">
+          <h3 class="title d-inline">Software Engineer</h3><a
+            class="ps-2 lead text-body text-decoration-none ">specialized
+            in
+            robotics,
+            devops and
+            systems</a>
+          <hr class="dotted_line" />
+        </div>
+      </div>
+    </div>
     <!-- Synapticon -->
-    <div class="pt-5">
+    <div class="pt-1">
       <div class="d-flex bd-highlight">
         <div class="bd-highlight">
           <img class="flag" src="img/flag_germany.png">
@@ -292,31 +356,12 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
     </div>
   </div>
 
-  <div class="pagebreak"></div>
-  <!-- Page 2 -->
-  <!-- Main info -->
-  <div class="pb-3 pt-4">
-    <div class="d-flex bd-highlight">
-      <div class="bd-highlight">
-        <h3 class="title">David Bensoussan</h3>
-      </div>
-      <div class="ps-2 flex-grow-1 bd-highlight mw-75">
-        <h3 class="title d-inline">Software Engineer</h3><a
-          class="ps-2 lead text-body text-decoration-none ">specialized
-          in
-          robotics,
-          devops and
-          systems</a>
-        <hr class="dotted_line" />
-      </div>
-    </div>
-  </div>
   <!-- Freelancing -->
   <div>
     <div class="d-flex bd-highlight">
       <div class="bd-highlight">
         <img class="flag" src="img/planet-earth.jpg">
-        <a class="h3 fw-bold text-body" href="https://bensoussan.xyz">Freelancing</a>
+        <a class="h3 fw-bold text-body">Freelancing</a>
       </div>
       <a class="bd-highlight ms-auto text-body text-decoration-none fst-italic">October 2017 -> October 2018 —
         Part
@@ -350,7 +395,7 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
     </div>
   </div>
   <!-- Maintool -->
-  <div class="pb-2">
+  <!--<div class="pb-2">
     <div class="d-flex bd-highlight">
       <div class="bd-highlight">
         <img class="flag" src="img/flag_france.png">
@@ -371,7 +416,7 @@ COPY RESPECTING THE LICENCE OR YOU WILL BE EXTERMINATED !!!
         photodiodes.</div>
 
     </div>
-  </div>
+  </div>-->
   <!-- Open source -->
   <div class="pt-3 description">
     <h3 class="title d-inline">Open Source</h3>

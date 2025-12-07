@@ -1,3 +1,10 @@
+/* @font-face {
+    font-family: 'Fontin Sans Rg';
+    src: url('../fonts/FontinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 body {
     height: auto;
     background:#FFF;
