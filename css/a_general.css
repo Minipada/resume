@@ -1,0 +1,70 @@
+/* @font-face {
+    font-family: 'Fontin Sans Rg';
+    src: url('../fonts/FontinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+    height: auto;
+    background:#FFF;
+    font-size: 16px;
+    color: black;
+}
+
+.title {
+    font-size: 27px;
+}
+
+a, div, p, h1, h2, h3 {
+    font-family: 'Fontin Sans Rg';
+    color: black;
+}
+
+.a4_format{
+    margin-left: 8mm;
+    margin-top: 8mm;
+    width:24cm;
+    height:26cm;
+}
+
+.pagebreak{
+    page-break-before: always;
+}
+
+.img-icon-size {
+    width: 20px;
+}
+
+a:link, a:visited {
+    color: #3c62b4;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.dotted_line {
+    border-top: 2px dotted #686868;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+}
+
+.mw-75 {
+    max-width: 75% !important;
+}
+
+.description {
+    text-align: justify !important;
+}
+
+/* Get new flags on iconfinder.com */
+.flag {
+    width: 23px;
+    vertical-align: sub;
+}
+
+li{
+    margin-bottom: 6px;
+}
